@@ -64,13 +64,19 @@ math.html
         margin-top: 50px;
     }
     h1{
-        color:rgb(22, 195, 222)
+        color:rgb(22, 195, 222);
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px #000000;
+        background-color: seashell;
     }
 
 </style>
-<body bgcolor="purple">
+<body bgcolor="lightgreen">
     
-        <div><h2>Power Calculation of Lamp Filament</h2>
+       <center><div><h2>Power Calculation of Lamp Filament</h2>
     <form method="POST">
         {% csrf_token %}
         <label>Intensity (I):</label>
@@ -87,6 +93,7 @@ math.html
     {% endif %}
     </div>
     <h1>DONE BY INDHU</h1>
+    </center>
 </body>
 </html>
 views.py
@@ -119,7 +126,8 @@ urlpatterns = [
 
 
 # HOMEPAGE:
-<img width="1919" height="1012" alt="Screenshot 2025-10-06 085417" src="https://github.com/user-attachments/assets/aeefacf7-dce1-4fa7-bc09-596870c3dc79" />
+<img width="1919" height="970" alt="Screenshot 2025-10-13 192444" src="https://github.com/user-attachments/assets/6943d648-28c6-436d-be07-2f5045f1f103" />
+
 
 
 # RESULT:
